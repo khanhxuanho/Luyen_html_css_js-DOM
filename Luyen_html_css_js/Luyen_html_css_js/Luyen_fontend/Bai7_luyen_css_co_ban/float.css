@@ -1,0 +1,36 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.container{
+    width:100%;
+    height:30px;
+    background-color: coral;
+}
+
+ul{
+    width:1400px;
+    height:30px;/* nho hon bang 30 cho bang thang cha*/
+    margin: 0 auto;
+
+}
+li {
+    color:white;
+    list-style: none;
+    /*border:1px solid black;*/
+    float: left;
+    width: 100px;
+    line-height: 30px; /*can giua dong 30px bang tren nhe*/
+    text-align: center; /*can giua chu*/
+}
+/* xoa nh huong cua float noi len tren*/
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}

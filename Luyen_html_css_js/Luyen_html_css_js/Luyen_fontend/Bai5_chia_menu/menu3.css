@@ -1,0 +1,40 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.menu{
+    width:30%;
+    text-align:left;
+}
+ul li{
+    width:200px;
+    height:50px;
+    line-height:50px;
+    color:black;
+    list-style:none;
+    background-color:#4cff00;
+    
+}
+ul li:hover
+{
+    color:white;
+    cursor:pointer;
+    position:relative;/*lm menu duoi de cha tren day*/
+}
+ul li::before {
+    content: "\f105";
+    font-family: "Font Awesome 6 Free"; /*luon co font de nhan icon hinh*/
+    font-weight:900;
+    margin:0px 10px ;
+}
+.sub_menu {
+    position: absolute; /*lm menu de can trai phai*/
+    top:0px;
+    left: 200px;
+    display:none;/*menu duoi bien mat di*/
+}
+ul li:hover .sub_menu{
+    display:block;/*an vo moi hien thi menu duoi*/
+
+}

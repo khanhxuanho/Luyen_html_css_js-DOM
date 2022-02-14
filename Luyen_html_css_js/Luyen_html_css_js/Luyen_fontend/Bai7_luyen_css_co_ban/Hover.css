@@ -1,0 +1,36 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+li{
+    list-style:none;
+}
+.one::before{/* chen chu trc hoac sau luon co content*/
+    content:"\f42c";/*nhet icon vo*/
+    padding:10px;
+    color:aqua;
+    font-family:"Footlight MT\ 5 Brands";
+    background-size:20px 20px;
+    background-repeat:no-repeat;/*ko nhan doi hinh*/
+    display:inline-block;/*de nhan chieu cao dai*/
+}
+.one::after { /* chen chu trc hoac sau luon co content*/
+    content: ""; /*nhet icon vo khong co content la loi*/
+    padding: 10px;
+    color: aqua;
+    background-image: url("meo.img");
+    background-size: 20px 20px;
+    background-repeat: no-repeat; /*ko nhan doi hinh*/
+    display: inline-block; /*de nhan chieu cao dai*/
+}
+.path::after{
+    content:"/";
+}
+.text:hover{/*hay su dung*/
+    color:antiquewhite;
+    width:100px;
+    height:100px;
+    cursor:pointer;/*hinh ban tay*/
+
+}

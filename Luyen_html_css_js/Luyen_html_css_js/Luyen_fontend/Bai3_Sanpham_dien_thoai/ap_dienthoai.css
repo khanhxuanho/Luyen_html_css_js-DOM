@@ -1,0 +1,45 @@
+﻿* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.product{
+    width:400px;
+    border:1px solid black;
+    position:relative;/*duoi con co*/
+
+}
+.product img{
+    width:100%;
+ 
+    object-fit:cover;/*hinh dep*/
+
+}
+.title{
+    text-align:center;
+}
+.price {
+    color: red;
+    font-weight:bold;/*chu in dam*/
+}
+.origin-price{
+    text-decoration:line-through;
+}
+
+.sticker {
+    background: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px; /*can chu ra giua cho bang chieu rong*/
+    text-align: center;
+    font-weight: bold;
+    position: absolute; /*cho 2 o len 1 hang*/
+    top:0px;
+}
+.hot{/*hien ben trai*/
+    left:0;
+}
+.sale { /*hien ben phai*/
+    right: 0;
+}

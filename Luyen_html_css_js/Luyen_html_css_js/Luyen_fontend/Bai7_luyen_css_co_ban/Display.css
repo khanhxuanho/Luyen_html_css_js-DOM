@@ -1,0 +1,30 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 30px;
+    color: darkorchid;
+    background-color: chartreuse;
+    /*line-height: 100px;*/ /*de day bi day meo o do chi 1 dong*/
+}
+ul{
+    width:1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+li{
+    list-style:none;
+    display:inline;
+    line-height:30px;
+    text-align:center;
+    padding: 5px 20px;
+    border:1px solid black;
+}

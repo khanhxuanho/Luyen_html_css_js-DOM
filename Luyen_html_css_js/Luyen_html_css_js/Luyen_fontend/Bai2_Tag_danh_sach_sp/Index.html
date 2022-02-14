@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Danh sach san pham js dom</title>
+    <link href="danhsachsp.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Danh sach san pham</h1>
+        <ul class="tab">
+            <li class="tab-item active" onclick="changeProductList('trend',this)">Pho bien</li>
+            <li class="tab-item" onclick="changeProductList('new',this)">Moi nhat</li>
+            <li class="tab-item" onclick="changeProductList('best-sell',this)">Ban chay</li>
+        </ul>
+
+        <!-- end list tab-->
+
+        <div id="trend" class="animation">
+            <!-- hiệu ứng chuyển động khi nhấn tab trên -->
+            <ul class="product-list">
+                <li><img src="./image/aonam.jpg" /></li>
+                <li><img src="./image/aosominu.jpg" /></li>
+                <li><img src="./image/Dienthoai.jpg" /></li>
+                <li><img src="./image/sominam.jpg" /></li>
+                <li> <img src="./image/sominu2.jpg" /></li>
+                <li><img src="./image/sominu3.jpg" /></li>
+            </ul>
+        </div>
+        <!-- end phobien-->
+
+        <div id="new" class="animation">
+            <!-- hiệu ứng chuyển động khi nhấn tab trên -->
+            <ul class="product-list">
+                <li><img src="./image/Dienthoai.jpg" /></li>
+                <li><img src="./image/sominam.jpg" /></li>
+                <li><img src="./image/aonam.jpg" /></li>
+                <li><img src="./image/aosominu.jpg" /></li>
+                <li> <img src="./image/sominu2.jpg" /></li>
+                <li><img src="./image/sominu3.jpg" /></li>
+            </ul>
+        </div>
+        <!-- end moi nhat-->
+
+        <div id="best-sell" class="animation">
+            <!-- hiệu ứng chuyển động khi nhấn tab trên -->
+            <ul class="product-list">
+                <li><img src="./image/sominam.jpg" /></li>
+                <li><img src="./image/sominu2.jpg" /></li>
+                <li><img src="./image/sominu3.jpg" /></li>
+                <li><img src="./image/aonam.jpg" /></li>
+                <li><img src="./image/aosominu.jpg" /></li>
+                <li><img src="./image/Dienthoai.jpg" /></li>
+            </ul>
+        </div>
+        <!-- end Ban chay-->
+    </div>
+
+    <script src="baith2.js"></script>
+</body>
+</html>

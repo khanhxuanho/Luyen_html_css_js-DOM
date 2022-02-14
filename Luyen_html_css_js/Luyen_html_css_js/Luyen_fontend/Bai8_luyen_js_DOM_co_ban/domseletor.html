@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>this is tag p one</p>
+    <p>this is tag p two</p>
+    <p>this is tag p three</p>
+    <p>this is tag p four</p>
+    <p>this is tag p five</p>
+
+    <h1 class="tag">hehe</h1>
+    <h5 class="tag">hello</h5>
+    <script>
+        let tagObject = document.getElementsByTagName('p');
+        //tagObject[0].style.color='red';
+        //tagObject[3].style.backgroundColor = 'red';
+        for (i = 0; i < tagObject.length; i++) {
+            if (i % 2 === 0) {
+                tagObject[i].style.color = 'red';
+            }
+            else {
+                tagObject[i].style.backgroundColor = 'red';
+            }
+        }
+    </script>
+
+    <script>
+        let listObject = document.getElementsByClassName('tag');
+        tagObject[0].style.color = 'white';
+
+        let object = document.querySelector('.tag'); 
+    </script>
+</body>
+</html>

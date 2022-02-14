@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luyen_html_css_js", "Luyen_html_css_js\Luyen_html_css_js.csproj", "{E558E08C-E937-4F8A-BBD2-805B968637ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E558E08C-E937-4F8A-BBD2-805B968637ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E558E08C-E937-4F8A-BBD2-805B968637ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E558E08C-E937-4F8A-BBD2-805B968637ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E558E08C-E937-4F8A-BBD2-805B968637ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBCF96DF-E350-4B91-B8B8-0DF1D27EF615}
+	EndGlobalSection
+EndGlobal

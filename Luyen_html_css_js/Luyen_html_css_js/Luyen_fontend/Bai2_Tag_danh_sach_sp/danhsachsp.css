@@ -1,0 +1,83 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #FFF;
+}
+
+    .container h1 {
+        text-transform: uppercase; /*viet hoa*/
+        font-size: 28px;
+    }
+
+div ul li {
+    list-style: none;
+}
+
+.container ul.tab { /*the ul co class tab*/
+    margin: 0;
+    padding: 0;
+    display: flex; /*cho dòng tab nằm ngang*/
+}
+
+    .container ul.tab li {
+        background: #b14c38;
+        padding: 10px;
+        color: #FFF;
+        border-radius: 3px; /*do cong*/
+        cursor: pointer;
+        margin-right: 10px;
+        width: 100px;
+        text-align: center;
+    }
+
+.container ul.product-list {
+    margin: 0;
+    padding: 0;
+    display: flex; /*cho dòng tab nằm ngang*/
+    margin-top: 20px;
+    flex-wrap: wrap; /*cho ảnh nằm trong khung định nghĩa*/
+}
+
+    .container ul.product-list li img {
+        width: 320px;
+        margin-right: 10px;
+        margin-bottom: 10px; /*day*/
+        cursor: pointer;
+    }
+
+/*ẩn đi 2 cai ds sp kia display:none */
+#new, #best-sell {
+    display: none
+}
+
+/*mac dinh cho cai pho bien mau khac*/
+ul.tab li.active {
+    background: #ee4d2d;
+}
+
+
+
+/*them hieu ung cho sp duoi*/
+#new, #trend,#best-sell{
+    -webkit-animation:slide-down .3s ease-out;
+    -moz-animation:slide-down .3s ease-out;
+    -webkit-animation:slide-down .2s ease-in;
+    -moz-animation:slide-down .2s ease-in;
+}
+
+/*nhay khi an chuyen tuy giay do minh chinh*/
+@-webkit-keyframes slide-down{
+    /*slode-down dat ten o tren ne*/
+    0%{ opacity:0;}
+    20%{ opacity:1;}
+}

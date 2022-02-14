@@ -1,0 +1,58 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 30px;
+    color: darkorchid;
+    background-color: chartreuse;
+
+    position:fixed;/*keo thanh cuon van co menu*/
+    /*line-height: 100px;*/ /*de day bi day meo o do chi 1 dong*/
+}
+
+.menu {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    float:left;
+    line-height: 30px;
+    text-align: center;
+    width:100px;
+    cursor:pointer;
+    background-color:darkgray;
+    position:relative;/*cho menu len chu*/
+}
+.sub-menu {
+    position: absolute; /*cho menu len chu class cha*/
+    display:none;/*sai hover duoi de chuot vo nhan css*/
+}
+.menu li:hover >.sub-menu/* sub menu bi tac dong class con*/
+{/*lon hon cap 1 moi hien*/
+    display:block;/*nhan css khi de chuot vo*/
+    cursor:pointer;
+}
+.menu li:hover /*de chuot vo doi mau khac*/
+{
+    background-color:antiquewhite;
+}
+.pl-100{/*menu cap 2*/
+    left:100px;
+    top:0px;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}

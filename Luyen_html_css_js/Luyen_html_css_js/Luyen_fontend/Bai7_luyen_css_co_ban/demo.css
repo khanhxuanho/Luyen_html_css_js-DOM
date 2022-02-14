@@ -1,0 +1,30 @@
+﻿h1{
+    color : red;
+}
+p{
+    color : pink;
+}
+.bgBlack {
+    background: black;
+    font-size: 40px !important;
+}
+#big
+{
+    font :100px;
+}
+.child{
+    color:red;
+}
+.parent .child{
+    color : yellow;   
+}
+
+.title{
+    color: white;
+    background: black;
+    font-size: 50px;
+    font-weight:700;
+    text-decoration:underline;
+    cursor:pointer;
+     
+}

@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* de trc cho de can*/
+div {
+    border: 1px solid black;
+}
+
+.header {
+    height: 50px;
+    background-color: aqua;
+}
+
+.nav {
+    height: 50px;
+    background-color: burlywood;
+}
+
+.content {
+    height: 300px;
+}
+
+.left-block, .right-block, .right-edit {
+    height: 300px;
+    float: left; /*cho div len 1 dong duoi class con moi cho %*/
+}
+
+.left-block {
+    width: 20%; /*duoi class con moi cho %*/
+    background-color: red;
+}
+
+.right-block {
+    width: 60%; /*duoi class con moi cho %*/
+    background-color: antiquewhite;
+}
+.pre-edit, .body-edit, .post-edit
+{
+    width:100%;
+}
+.pre-edit{
+    height:20%;
+    background-color:#ff6a00;
+}
+.body-edit{
+    height:20%;
+}
+.body-edit{
+    height:60%;
+    background-color:#808080
+}
+.right-edit {
+    background-color: aquamarine;
+    width: 20%;
+}
+
+.footer {
+    height: 100px;
+    background-color: blueviolet;
+}

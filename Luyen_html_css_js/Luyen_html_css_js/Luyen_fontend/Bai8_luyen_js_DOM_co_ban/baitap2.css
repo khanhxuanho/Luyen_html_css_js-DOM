@@ -1,0 +1,29 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*cho lên ngang hàng float nổi lên*/
+ul, #main-image{
+    float:left;
+}
+ul li{
+    list-style:none;
+}
+
+    ul li img {
+        width: 100px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+#main-image {
+    width:500px;
+}
+
+    #main-image img {
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }

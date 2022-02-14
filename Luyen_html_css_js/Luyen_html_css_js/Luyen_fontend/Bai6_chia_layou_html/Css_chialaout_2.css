@@ -1,0 +1,57 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* de trc cho de can*/
+/*div {
+    border: 1px solid black;
+}*/
+
+.header {
+    height: 50px;
+    background-color: aqua;
+}
+
+.nav {
+    height: 50px;
+    background-color: burlywood;
+}
+
+.content {
+    height: 300px;
+}
+
+.left-block, .right-block {
+    height: 300px;
+    float: left; /*cho div len 1 dong duoi class con moi cho %*/
+}
+
+.left-block {
+    width: 30%; /*duoi class con moi cho %*/
+    background-color: red;
+}
+
+.right-block {
+    width: 70%; /*duoi class con moi cho %*/
+    height: 80%;
+    background-color: antiquewhite;
+}
+
+
+.etra-edit {
+    height:200px;
+    width:100%;
+    background-color:antiquewhite;
+}
+.right-edit {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+   
+}
+
+.footer {
+    height: 100px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,40 @@
+﻿p {
+    color:red;
+    font-size:36px;
+    font-style:italic;
+    font-family:'Times New Roman';/*kieu chu*/
+    font-weight: bold; /*in đậm */
+    text-align:center;
+    text-decoration:underline;/* gach chan giua tren duoi*/
+    text-transform:uppercase; /*dua chu in hoa het*/
+
+}
+div{
+    width:400px;
+    height:100px;
+    background: red;
+    text-align:center;
+    line-height:100px;/*de cho 1 o div co 1 dong can giua meo */
+    border:1px solid black;/*vien o div*/
+    border-left:none;
+    border-radius: 0px 10px 10px 0px;/*do cong vien*/
+    color:white;
+    font-size:40px;
+    font-weight: 700;
+}
+.a{
+    width:100px;
+    height:100px;
+    background:blue;
+    margin:100px; /*cach 2 o div do*/
+    padding:100px;/*do thit cua o the*/
+    box-sizing: border-box;/*ko bi vo giao dien hoon content box*/
+    display: inline-block;
+}
+.parent{
+    display:flex !important;
+    flex-direction:row;/*xep hang ngang tren mac dinh xep hang ngang roi*/
+    height:500px;
+    align-items:center;
+    background:blue;
+}
